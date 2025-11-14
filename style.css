@@ -1,0 +1,51 @@
+ 
+#btn {
+    color: aliceblue;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0 ;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:rgb(237, 240, 62);
+}
+
+
+
+.container{
+    background: white;
+    padding: auto;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.fill{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 30px;
+}
+
+li{
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.decoration{
+    text-decoration: line-through;
+    color: gray;
+}
